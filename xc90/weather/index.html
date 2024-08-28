@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天氣預報</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="current-weather">
+            <h1>目前天氣</h1>
+            <div class="weather-icon">
+                <img id="current-icon" src="" alt="天氣圖示">
+            </div>
+            <div class="temperature">
+                <span id="current-temp"></span>°C
+            </div>
+            <div class="description" id="current-description"></div>
+        </div>
+        <div class="weekly-forecast">
+            <h2>一周預報</h2>
+            <div class="forecast" id="forecast-container">
+                <!-- 這裡將使用 JavaScript 動態生成一周的預報 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.current-weather {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.weather-icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.weekly-forecast {
+    background-color: #00b4d8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-day {
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #0096c7;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .forecast {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forecast-day {
+        width: 90%;
+    }
+}
